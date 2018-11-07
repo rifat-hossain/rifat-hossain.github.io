@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'MobiriseIcons';
-  src:  url('mobirise-icons.eot?spat4u');
-  src:  url('mobirise-icons.eot?spat4u#iefix') format('embedded-opentype'),
-    url('mobirise-icons.ttf?spat4u') format('truetype'),
-    url('mobirise-icons.woff?spat4u') format('woff'),
-    url('mobirise-icons.svg?spat4u#MobiriseIcons') format('svg');
+  src:  url('icons.eot?spat4u');
+  src:  url('icons.eot?spat4u#iefix') format('embedded-opentype'),
+    url('icons.ttf?spat4u') format('truetype'),
+    url('icons.woff?spat4u') format('woff'),
+    url('icons.svg?spat4u#MobiriseIcons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -12,7 +12,6 @@
 [class^="mbri-"], [class*=" mbri-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: MobiriseIcons !important;
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
