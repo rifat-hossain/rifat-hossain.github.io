@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--place the newest on top-->
+<contact-info>
+
+
+<!--PROJECTS-->
+<proj>
+	<name>Personal Portfolio (November, 2018)</name>
+	<des>A website to present MYSELF [<a href="https://rifat-hossain.github.io/">Link</a>]</des>
+</proj>
+
+
+
+<!--EXPERIENCES-->
+<exp>
+	<name>Finalist of NOSI(Naional Olympiad in Software Innovation) (2015)</name>
+	<des>The National Olympiad in Software Innovation (NOSI) is an annual software development competition for middle/high school students and college freshmen. [<a href="https://www.facebook.com/nosibd/" target="_blank">Link</a>]</des>
+</exp>
+<exp>
+	<name>Software Developer at <abbr title="Bangladesh Institute of ICT in Development">BIID</abbr> (May 2014 - May 2015)</name>
+	<des>Goal: Developing a software for the company website database management. [<a href="http://www.biid.org.bd/">BIID Website</a>]</des>
+</exp>
+<exp>
+	<name>ICT Secretory at <abbr title="Ideal Science and Technology Aiming Research Council">ISTARC</abbr> (January 2015 - January 2016)</name>
+	<des>Science Club of Ideal School and College. [<a href="http://istarc.org/">Link</a>]</des>
+</exp>
+
+
+
+<!--SPECIAL SKILLS-->
+<ss>
+	<name>Back-End Development</name>
+	<des>There is a portion of the application the user sees and then in most cases the largest part of the application remains unseen. This is the elusive and mystical “back-end.”</des>
+</ss>
+<ss>
+	<name>Front-End Development</name>
+	<des>Front end development is mostly focused on what some may coin the "client side" of development.</des>
+</ss>
+<!--ss>
+	<name>Machine Learning</name>
+	<des>Experienced programmer with 6+ years programming experience. Have good knowlegde on C# ASP.Net, XAML, SQL. And on the other hand have a little experince on Java Script, Matlab, HTML and CSS.</des>
+</ss-->
+<ss>
+	<name>Foreign Languages</name>
+	<des>English, Urdu and Hindi</des>
+</ss>
+
+
+
+<!--EDUCATION-->
+<edu>
+	<title>Graduation (BSc)</title>
+	<des>Institution: Shahjalal Univarsity of Science and Technology</des>
+	<yr>2022</yr>
+</edu>
+<edu>
+	<title>Higher School Certificate</title>
+	<des>Institution: Dhaka Imperial College</des>
+	<yr>2018</yr>
+</edu>
+<edu>
+	<title>Secondary School Certificate</title>
+	<des>Institution: Ideal School and College</des>
+	<yr>2016</yr>
+</edu>
+<edu>
+	<title>Junior School Certificate</title>
+	<des>Institution: Ideal School and College</des>
+	<yr>2013</yr>
+</edu>
+<edu>
+	<title>Primary Education Certificate</title>
+	<des>Institution: Ideal School and College</des>
+	<yr>2010</yr>
+</edu>
+
+
+</contact-info>
