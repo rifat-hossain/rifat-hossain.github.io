@@ -63,19 +63,22 @@
             
             <div class="container pt-5">
               <p>1. Select function<br>
-              2. Provide any small, large or ultra large number in the left and the right operator number boxes.<br>
+              2. Provide any small, large or ultra large number in the left and the right operand boxes.<br>
               3. Hit go. DONE</p>
               <strong>Function name:</strong>
-                  <select class="custom-select mb-3" id="selectit">
+              <div class="input-group mb-3">
+                  <select class="custom-select" id="selectit" style="width: 100%" onchange="change()">
                       <option selected>add</option>
                       <option>subs</option>
                       <option>mult_long</option>
                       <option>mult_lattice</option>
                       <option>divi</option>
                   </select>
+                  <input type="number" class="form-control invisible" placeholder="Range" id="rng" style="height: 0px;" value="20">
+              </div>
                   <div class="input-group mb-3">
-                      <input type="number" class="form-control" placeholder="Left Oparend" id="lo">
-                      <input type="number" class="form-control" placeholder="Right Oparend" id="ro">
+                      <input type="number" class="form-control" placeholder="Left Operand" id="lo">
+                      <input type="number" class="form-control" placeholder="Right Operand" id="ro">
                   </div>
                   <button class="btn btn-primary" onclick="work()">Go!</button>
           </div>
