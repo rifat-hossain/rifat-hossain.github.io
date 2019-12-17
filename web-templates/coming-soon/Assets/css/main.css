@@ -1,0 +1,87 @@
+.screen {
+    height: 100vh;
+    background-image: url(../4K-Blurred-Backgrounds-HD-Wallpapers-40696.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    text-align: center;
+}
+
+.topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+
+.bottomright {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+  }
+
+.cs {
+    padding-bottom: 3rem;
+}
+
+.clock {
+    font-family: 'Major Mono Display'
+}
+.notify {
+    width: 350px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 2rem;
+}
+.notify input{
+    outline: none;
+    padding: 11px 15px;
+    font-size: 13px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.40);
+    letter-spacing: 2px;
+    border: none;
+    border: 1px solid #ddd;
+    margin: 0;
+    border-radius: 0;
+}
+
+.notify button {
+    outline: none;
+    padding: 12px 17px;
+    font-size: 13px;
+    color: #fff;
+    background: #ff6a00;
+    border: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+    margin: 0;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 0px;
+}
+
+a {
+    color: #30c39e;
+    font-weight: 600;
+    padding: 5px 0px;
+    text-decoration: none;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+a:hover {
+    color: rgb(241,88,34);
+}

@@ -5,6 +5,10 @@
 
 <!--PROJECTS-->
 <proj>
+	<name>Building Web Templates</name>
+	<des>This is made as a showcase of my web development skills [<a href="web-templates/">Link</a>]</des>
+</proj>
+<proj>
 	<name>hugeMath Library (January, 2019)</name>
 	<des>[<a href="hugeMath/">Link</a>]</des>
 </proj>

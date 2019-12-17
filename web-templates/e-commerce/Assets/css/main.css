@@ -1,0 +1,79 @@
+.bg-intro {
+  background: url(../images/shoe.jpg) no-repeat;
+  background-size: cover;
+}
+.row {
+  margin-right: 0px;
+}
+
+.screen {
+  min-height: 50vw;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 300px;
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.gred1 {
+  background-image: linear-gradient(to right, rgb(60,23,83), rgb(163,27,101));
+}
+
+div.gallery{
+  margin: 12px 5px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+div.gallery:hover{
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+div.gallery img{
+  width: 100%;
+  height: auto;
+}
+
+.des{
+  padding: 16px;
+  text-align: center;
+}
+div.up a{
+  margin: 2px 8px 2px 8px;
+  color: white;
+  font-size: small;
+}
+a{
+  
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.fab{
+  padding: 8px;
+  font-size: xx-large;
+  color: black;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.fa-facebook-square:hover {
+  color: rgb(58, 85, 159);
+}
+.fa-skype:hover {
+  color: rgb(0, 173, 241);
+}
+.fa-linkedin:hover {
+  color: rgb(0, 119, 183);
+}
+.fa-github:hover {
+  color: rgb(51, 51, 51);
+}

@@ -1,0 +1,47 @@
+.grid_sec_info {
+    padding: 8em 6em 8em 6em;
+}
+body{
+    background: rgba(23, 22, 23, 1);
+}
+
+.back-bg1 {
+    background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 1)), url(business.png) no-repeat center center;
+    background-size: cover;
+    min-height: 360px;
+}
+
+.back-bg2 {
+    background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 1)), url(ec.png) no-repeat center center;
+    background-size: cover;
+    min-height: 360px;
+}
+
+.back-bg3 {
+    background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 1)), url(cs.png) no-repeat center center;
+    background-size: cover;
+    min-height: 360px;
+}
+.row {
+    margin-right: 0px;
+}
+
+a{
+    color: white;
+    transition: all 0.4s;
+}
+
+a:hover {
+    color: teal;
+    text-decoration: none;
+}
+.bgcolor {
+    background-image: linear-gradient(rgb(41, 41, 41), rgb(23, 22, 23));
+}
+
+.logo {
+    background-image: url(logo.png);
+    background-size: cover;
+    height: 121px;
+    width: 200px;
+}
