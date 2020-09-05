@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <!-- jQuery library -->
     <script src="js/jquery-3.3.1.js"></script>
     <!-- Popper JS -->
@@ -20,144 +22,168 @@
     <link rel="stylesheet" href="css/aos.css">
     <!-- Awesome Font -->
     <link rel="stylesheet" href="font/css/all.css">
-    
-    
+
+
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <script src="js/main.js"></script>
 
 </head>
+
 <body>
-  <script>
-      AOS.init();
-  </script>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">
-            <img src="images/logo-200x200.png" style="width: 48px;">
-        </a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navb">
-            <div class="d-flex ml-auto justify-content-center">
-          <ul class="navbar-nav" style="width: auto;">
-            <li class="nav-item">
-              <a class="nav-link" href="#_intro">
-                <span class="icon far fa-user"></span>Intro
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#_projects">
-                <span class="icon far fa-lightbulb"></span>Projects
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#_gallery">
-                <span class="icon far fa-images"></span>Gallery
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="bio.html">
-                <span class="icon far fa-file-alt"></span>Biography
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#_contact">
-                <span class="icon far fa-envelope-open"></span>Contact
-              </a>
-            </li>
-          </ul>
-          </div>
-        </div>
-        </div>
-      </nav>
-<section class="bg-intro" id="_intro">
-  <div class="container">
-    <div class="row screen">
-      <div class="col-md-6 d-flex flex-column align-content-center justify-content-center" data-aos="fade-right" data-aos-duration="2000">
+    <script>
+        AOS.init();
+    </script>
+    <nav class="navbar navbar-expand-md bg-light fixed-top">
+        <div class="container">
+            <!-- Brand/logo -->
+            <a class="navbar-brand" href="#">
+                <img src="images/logo-200x200.png" alt="logo" style="width:40px;">
+            </a>
 
-        <h1 class="text-light font-weight-bold mb-5">M Rifat Hossain</h1>
-        <p class="text-light">Programmer&nbsp; &nbsp; ♦&nbsp; &nbsp; Designer&nbsp; &nbsp; ♦&nbsp; &nbsp; Dreamer</p>
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <i class="fas fa-ellipsis-v"></i>
+  </button>
 
-      </div>
-      <div class="col-md-6 d-none d-md-block" data-aos="fade-down" data-aos-duration="1500">
-        <div class="screen d-flex justify-content-end">
-        <a class="m-5 align-self-end" href="#_who"><span class="nxt fas fa-arrow-down"></span></a>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#_intro"><span class="icon far fa-user"></span>Intro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#_projects"><span class="icon far fa-lightbulb"></span>Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#_gallery"><span class="icon far fa-images"></span>Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bio/"><span class="icon far fa-file-alt"></span>Biography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#_contact"><span class="icon far fa-envelope-open"></span>Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
+    </nav>
+    <div id=cover>
     </div>
-  </div>
-</section>
-<section class="bg-who pt-5 pb-5" id="_who">
-  <div class="container">
-    <div class="d-flex flex-column" data-aos="fade-up" data-aos-duration="600">
-      <h4 class="display-4 text-light align-self-center">Who I am?</h4><br>
-      <p class="text-light align-self-center">I am a student of Shahjalal Univarsity of Science and Technology, Sylhet, in the department of Electrical and Electronic Engineering.</p><br>
-      <a class="btn btn-warning align-self-center" href="bio.html" role="button">See Full Biography</a>
+    <div id="_intro" class="desc">
+        <div id="name" class="container">
+            <span>M Rifat Hossain</span><br>
+            <code>Programmer | Designer | Dreamer</code>
+        </div>
+        <div class="container down">
+            <a href="#_who"><i class="fas fa-arrow-circle-down"></i></a>
+        </div>
+        <div id="_who" class="container wht py-5 px-5">
+            <h1 class="display-4">Who I am?</h1>
+            <p>I am a student of Shahjalal Univarsity of Science and Technology, Sylhet, in the department of Electrical and Electronic Engineering.</p><br>
+            <a class="btn btn-warning align-self-center" href="bio/" role="button">See Full Biography</a>
+            <hr id="_projects" class="my-5">
+            <div class="d-flex flex-column" data-aos="fade-up" data-aos-duration="600">
+                <h4 class="display-4 align-self-center mb-4">Projects</h4>
+                <div class="col-md-8 align-self-center">
+                    <ol class="check rectangle-list" id="projs">
+                        </ul>
+                </div>
+                <ol id="proj_count">
+                    </ul>
+            </div>
+        </div>
+        <section class="bg-dark" id="_gallery">
+            <div class="owl-carousel">
+                <div class="item"> <img src="images/IMG_aRFrFtoJ5F.jpg"> </div>
+                <div class="item"> <img src="images/IMG_KJNkhahrDu.jpg"> </div>
+                <div class="item"> <img src="images/IMG_n7skIszEOK.jpg"> </div>
+                <div class="item"> <img src="images/IMG_uR96NLOlGa.jpg"> </div>
+                <div class="item"> <img src="images/IMG_w2KBhFjt7w.jpg"> </div>
+                <div class="item"> <img src="images/IMG_zoV1JF7oXg.jpg"> </div>
+                <div class="item"><img src="images/IMG_OJy3YK6tey.JPG"></div>
+            </div>
+            <script>
+                $(document).ready(function() {
+                    var owl = $('.owl-carousel');
+                    owl.owlCarousel({
+                        loop: true,
+                        autoplay: true,
+                        margin: 0,
+                        nav: false,
+                        center: true,
+                        responsive: {
+                            0: {
+                                items: 1
+                            },
+                            600: {
+                                items: 3
+                            },
+                            1000: {
+                                items: 5
+                            }
+                        }
+                    });
+                });
+            </script>
+        </section>
+        <section class="bg-dark text-light" id="_contact">
+            <div class="container">
+                <div class="d-flex flex-wrap align-content-center align-content-center py-5">
+                    <div style="width:100%;" class="text-center">
+                        <h5>CONTACT</h5>
+                    </div>
+                    <div style="width:100%;" class="text-center">
+                        <h4 class="display-4">What can I do for you?</h4>
+                    </div>
+                    <div style="width:100%;" class="d-flex justify-content-center">
+                        <div class="col-md-8 text-center">
+                            <p>Feel free to drop me a line. I always enjoy meeting new people and making new friends. If there's anything I can do for you, please do let me know!</p>
+                        </div>
+                    </div>
+                    <div style="width:100%;" class="text-center"><span class="nxt far fa-envelope-open mt-5"></span></div>
+                    <div style="width:100%;" class="text-center">
+                        <h5 class="mt-3">EMAIL ME AT</h5>
+                    </div>
+                    <div style="width:100%;" class="text-center"><a class="mt-2" href="mailto:m.rifathosn@gmail.com">m.rifathosn@gmail.com</a></div>
+                </div>
+            </div>
+        </section>
     </div>
-  </div>
-</section>
-<section id="_projects" class="pt-5 pb-5">
-  <div class="container">
-    <div class="d-flex flex-column" data-aos="fade-up" data-aos-duration="600">
-      <h4 class="display-4 align-self-center mb-4">Projects</h4>
-      <div class="col-md-8 align-self-center">
-        <ul class="check" id="projs"></ul>
-      </div>
-      <ul id="proj_count">
-      </ul>
-    </div>
-  </div>
-</section>
-<section class="bg-dark" id="_gallery">
-    <div class="owl-carousel">
-        <div class="item"> <img src="images/IMG_aRFrFtoJ5F.jpg"> </div>
-        <div class="item"> <img src="images/IMG_KJNkhahrDu.jpg"> </div>
-        <div class="item"> <img src="images/IMG_n7skIszEOK.jpg"> </div>
-        <div class="item"> <img src="images/IMG_uR96NLOlGa.jpg"> </div>
-        <div class="item"> <img src="images/IMG_w2KBhFjt7w.jpg"> </div>
-        <div class="item"> <img src="images/IMG_zoV1JF7oXg.jpg"> </div>
-        <div class="item"><img src="images/IMG_OJy3YK6tey.JPG"></div>
-      </div>
-      <script>
-      $(document).ready(function(){
-        var owl = $('.owl-carousel');
-owl.owlCarousel({
-loop:true,
-autoplay: true,
-margin:0,
-nav:false,
-center: true,
-responsive:{
-    0:{
-        items:1
-    },
-    600:{
-        items:3
-    },
-    1000:{
-        items:5
-    }
-}
-});
-});
-      </script>
-</section>
-<section class="bg-dark text-light" id="_contact">
-  <div class="container">
-    <div class="screen d-flex flex-wrap align-content-center align-content-center">
-      <div style="width:100%;" class="text-center"><h5>CONTACT</h5></div>
-      <div style="width:100%;" class="text-center"><h4 class="display-4">What can I do for you?</h4></div>
-      <div style="width:100%;" class="d-flex justify-content-center"><div class="col-md-8 text-center"><p>Feel free to drop me a line. I always enjoy meeting new people and making new friends. If there's anything I can do for you, please do let me know!</p></div></div>
-      <div style="width:100%;" class="text-center"><span class="nxt far fa-envelope-open mt-5"></span></div>
-      <div style="width:100%;" class="text-center"><h5 class="mt-3">EMAIL ME AT</h5></div>
-      <div style="width:100%;" class="text-center"><a class="mt-2" href="mailto:m.rifathosn@gmail.com">m.rifathosn@gmail.com</a></div>
-    </div>
-  </div>
-</section>
 
-<script src="db/lists.js"></script>
-<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script>
+        $(window).scroll(function() {
+            console.log(10 + window.scrollY / window.innerHeight * 100 + "vh");
+            $('#cover').css("bottom", 10 + window.scrollY / window.innerHeight * 50 + "vh");
+        });
+        $(document).ready(function() {
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function() {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
+
+
+    <script src="db/lists.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
 </body>
+
 </html>
