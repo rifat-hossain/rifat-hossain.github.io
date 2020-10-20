@@ -81,14 +81,6 @@
 	<des>Institution: Ideal School and College</des>
 	<yr>2010</yr>
 </edu>
-	
-<!--Graphical Content-->
-<gra>
-	<title>Psycho Logo</title>
-	<date>4 March, 2014</date>
-	<des>description here</des>
-	<img>antirape.png</img>
-</gra>
 
 <!-- Graphical Content -->
 <gra>
@@ -109,13 +101,13 @@ The club is backed by some excellent teachers as advisers who are readily availa
 	<title>BDSA Reception Poster: BDSA</title>
 	<date>March ‎5, ‎2020</date>
 	<des>Barisal divisional Student Association is a non political group of the students of Barisal Division studying in Shahjalal University of Science and Technology.</des>
-	<img>poster-barishal.png</img>
+	<img>poster-barishal.jpg</img>
 </gra>
 <gra>
 	<title>BDSA Reception Banner: BDSA</title>
 	<date>March ‎5, ‎2020</date>
 	<des>Barisal divisional Student Association is a non political group of the students of Barisal Division studying in Shahjalal University of Science and Technology.</des>
-	<img>banner-barishal.png</img>
+	<img>banner-barishal.jpg</img>
 </gra>
 <gra>
 	<title>Group Logo: SUSC</title>
@@ -134,7 +126,7 @@ The club is backed by some excellent teachers as advisers who are readily availa
 	<title>Logo Design: Neel-Frame</title>
 	<date>April ‎19, ‎2020</date>
 	<des>Neel-Frame is a Facebook page created by two individual singers to share their talent world wide.</des>
-	<img>neel-frame.jpg</img>
+	<img>neel-frame.png</img>
 </gra>
 
 </contact-info>
