@@ -57,11 +57,24 @@ xhttp.onreadystatechange = function() {
             var edus = xml.getElementsByTagName("edu");
             for (var i = 0; i < edus.length; i++) {
                 document.getElementById("edu").innerHTML += "<div class=\"timeline\">\
-				<div class=\"timeline-content\">\
-					<span class=\"year\">" + edus.item(i).childNodes.item(5).innerHTML + "</span>\
-					<div class=\"inner-content\">\
-						<h3 class=\"title\">" + edus.item(i).childNodes.item(1).innerHTML + "</h3>\
-						<p class=\"description\">" + edus.item(i).childNodes.item(3).innerHTML + "</p></div></div>";
+                <div class=\"timeline-content\">\
+                    <span class=\"year\">" + edus.item(i).childNodes.item(5).innerHTML + "</span>\
+                    <div class=\"inner-content\">\
+                        <h3 class=\"title\">" + edus.item(i).childNodes.item(1).innerHTML + "</h3>\
+                        <p class=\"description\">" + edus.item(i).childNodes.item(3).innerHTML + "</p></div></div>";
+            }
+        }
+
+        if (document.getElementById("grap") != null) {
+            var grapp = xml.getElementsByTagName("gra");
+            console.log(grapp);
+            for (var i = 0; i < grapp.length; i++) {
+                document.getElementById("grap").innerHTML += "<li>\
+                <span>" + grapp.item(i).childNodes.item(1).innerHTML + "</span>\
+                <small class=\"float-right\">" + grapp.item(i).childNodes.item(3).innerHTML + "</small>\
+                <p>" + grapp.item(i).childNodes.item(5).innerHTML + "</p>\
+                <img src=\"" + grapp.item(i).childNodes.item(7).innerHTML + "\">\
+            </li>";
             }
         }
     }
