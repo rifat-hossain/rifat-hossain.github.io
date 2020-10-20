@@ -5,6 +5,10 @@
 
 <!--PROJECTS-->
 <proj>
+	<name>Graphical Works</name>
+	<des>Added new 7 items [<a href="graphycal/">Link</a>]</des>
+</proj>
+<proj>
 	<name>Building Web Templates</name>
 	<des>This is made as a showcase of my web development skills [<a href="web-templates/">Link</a>]</des>
 </proj>
