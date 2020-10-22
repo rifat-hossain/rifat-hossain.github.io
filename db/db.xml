@@ -5,6 +5,10 @@
 
 <!--PROJECTS-->
 <proj>
+	<name>JSON-2-SMS</name>
+	<des>An android app that helps to send Bulk SMS to recipients using JSON file as the source of information [<a href="https://github.com/rifat-hossain/JSON-2-SMS">Github</a>]</des>
+</proj>
+<proj>
 	<name>Graphical Works</name>
 	<des>Added new 7 items [<a href="graphical/">Link</a>]</des>
 </proj>
