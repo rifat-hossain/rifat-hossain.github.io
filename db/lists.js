@@ -110,7 +110,7 @@ function less_proj() {
     }
     document.getElementById("proj_count").innerHTML += "<li class=\"page-item\"><a class=\"page-link text-primary\" onclick=\"nxt_pr();\">Next</a></li>\
 		<li class=\"page-item\"><a class=\"page-link text-primary\" onclick=\"gotoList('proj');\">View All</a></li>";
-    if (projss.length < num) {
+    if (projss.length <= num) {
         document.getElementById("proj_count").setAttribute("class", "invisible pagination justify-content-center");
     }
 
@@ -133,7 +133,7 @@ function less_exp() {
     }
     document.getElementById("exp_count").innerHTML += "<li class=\"page-item\"><a class=\"page-link text-primary\" onclick=\"nxt_ex();\">Next</a></li>\
 		<li class=\"page-item\"><a class=\"page-link text-primary\" onclick=\"gotoList('exp');\">View All</a></li>";
-    if (expss.length < num) {
+    if (expss.length <= num) {
         document.getElementById("exp_count").setAttribute("class", "invisible pagination justify-content-center");
     }
 
@@ -156,7 +156,7 @@ function less_ss() {
     }
     document.getElementById("ss_count").innerHTML += "<li class=\"page-item\"><a class=\"page-link text-primary\" onclick=\"nxt_ss();\">Next</a></li>\
 		<li class=\"page-item\"><a class=\"page-link text-primary\" onclick=\"gotoList('ss');\">View All</a></li>";
-    if (ssss.length < num) {
+    if (ssss.length <= num) {
         document.getElementById("ss_count").setAttribute("class", "invisible pagination justify-content-center");
     }
 

@@ -85,11 +85,11 @@
             <div class="d-flex flex-column" data-aos="fade-up" data-aos-duration="600">
                 <h4 class="display-4 align-self-center mb-4">Projects</h4>
                 <div class="col-md-8 align-self-center">
-                    <ol class="check rectangle-list" id="projs">
-                        </ul>
-                </div>
-                <ol id="proj_count">
+                    <ul class="check rectangle-list " id="projs">
                     </ul>
+                </div>
+                <ul id="proj_count" class="pagination justify-content-center">
+                </ul>
             </div>
         </div>
         <section class="bg-dark" id="_gallery">
@@ -152,7 +152,6 @@
 
     <script>
         $(window).scroll(function() {
-            console.log(10 + window.scrollY / window.innerHeight * 100 + "vh");
             $('#cover').css("bottom", 10 + window.scrollY / window.innerHeight * 50 + "vh");
         });
         $(document).ready(function() {
