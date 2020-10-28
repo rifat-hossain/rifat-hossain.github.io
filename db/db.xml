@@ -5,6 +5,10 @@
 
 <!--PROJECTS-->
 <proj>
+	<name>TGS - Toon Got Speed (Game)</name>
+	<des>TGS is a sample web game made for fun. [<a href="Games/TGS/">Play</a>]</des>
+</proj>
+<proj>
 	<name>JSON-2-SMS</name>
 	<des>An android app that helps to send Bulk SMS to recipients using JSON file as the source of information [<a href="https://github.com/rifat-hossain/JSON-2-SMS">Github</a>]</des>
 </proj>
