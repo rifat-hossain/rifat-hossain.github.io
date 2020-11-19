@@ -18,7 +18,7 @@
 </proj>
 <proj>
 	<name>Building Web Templates</name>
-	<des>This is made as a showcase of my web development skills [<a href="web-templates/">Link</a>]</des>
+	<des>This is made as a showcase of my web development skills [<a href="web-templates/" target="_blank">Link</a>]</des>
 </proj>
 <proj>
 	<name>hugeMath Library (January, 2019)</name>
@@ -48,6 +48,14 @@
 
 
 <!--SPECIAL SKILLS-->
+<ss>
+	<name>Windows App Development</name>
+	<des>There is so many users currently works on Windows OS on their PC. So knowing how to code apps for Windows is a crying need. I got my hands on Console, Forms, UWP, WPF and Windows hosting.</des>
+</ss>
+<ss>
+	<name>Android Development</name>
+	<des>Android software development is the process by which applications are created for devices running the Android operating system. Have been working on android for a long time now.</des>
+</ss>
 <ss>
 	<name>Back-End Development</name>
 	<des>There is a portion of the application the user sees and then in most cases the largest part of the application remains unseen. This is the elusive and mystical “back-end.”</des>
