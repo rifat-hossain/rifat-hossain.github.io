@@ -5,6 +5,10 @@
 
 <!--PROJECTS-->
 <proj>
+	<name>Graphical Works</name>
+	<des>Added new 2 items [<a href="graphical/">Link</a>]</des>
+</proj>
+<proj>
 	<name>TGS - Toon Got Speed (Game)</name>
 	<des>TGS is a sample web game made for fun. [<a href="Games/TGS/">Play</a>]</des>
 </proj>
@@ -104,10 +108,22 @@
 
 <!-- Graphical Content -->
 <gra>
+	<title>Poster Design for an Online Event: SUSC</title>
+	<date>November 25, 2020</date>
+	<des>Shahjalal University Speakers' Club (SUSC) is the only English language-based club in Shahjalal University of Science and Technology, Sylhet.</des>
+	<img>online_SH-01.jpg</img>
+</gra>
+<gra>
 	<title>Poster Design for Supporting Anti Rape Movement: SUSC</title>
 	<date>October 6, 2020</date>
 	<des>Shahjalal University Speakers' Club (SUSC) is the only English language-based club in Shahjalal University of Science and Technology, Sylhet.</des>
 	<img>anti-rape.png</img>
+</gra>
+<gra>
+	<title>Poster Design for an online event: SUSC</title>
+	<date>‎April ‎29, ‎2020</date>
+	<des>Shahjalal University Speakers' Club (SUSC) is the only English language-based club in Shahjalal University of Science and Technology, Sylhet.</des>
+	<img>review.png</img>
 </gra>
 <gra>
 	<title>Poster Design for Bangla New Year: SUSC</title>
