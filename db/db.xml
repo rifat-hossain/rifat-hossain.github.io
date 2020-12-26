@@ -5,6 +5,10 @@
 
 <!--PROJECTS-->
 <proj>
+	<name>Calculator for Android</name>
+	<des>An android app that can be usefull for everyday small math operations [<a href="https://github.com/rifat-hossain/Calculator.android">Github</a>]</des>
+</proj>
+<proj>
 	<name>Graphical Works</name>
 	<des>Added new 2 items [<a href="graphical/">Link</a>]</des>
 </proj>
