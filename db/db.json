@@ -1,0 +1,182 @@
+{
+	"proj":[
+		{
+			"name":"Calculator for Android",
+			"des":"An android app that can be usefull for everyday small math operations [<a href=\"https://github.com/rifat-hossain/Calculator.android\">Github</a>]",
+			"tags":["android"]
+		},
+		{
+			"name":"Graphical Works",
+			"des":"Added new 2 items [<a href=\"graphical/\">Link</a>]",
+			"tags":["graphics", "SUSC"]
+		},
+		{
+			"name":"TGS - Toon Got Speed (Game)",
+			"des":"TGS is a sample web game made for fun. [<a href=\"Games/TGS/\">Play</a>]",
+			"tags":["game","unity","web"]
+		},
+		{
+			"name":"JSON-2-SMS",
+			"des":"An android app that helps to send Bulk SMS to recipients using JSON file as the source of information [<a href=\"https://github.com/rifat-hossain/JSON-2-SMS\">Github</a>]",
+			"tags":["android"]
+		},
+		{
+			"name":"Graphical Works",
+			"des":"Added new 7 items [<a href=\"graphical/\">Link</a>]",
+			"tags":["graphics"]
+		},
+		{
+			"name":"Building Web Templates",
+			"des":"This is made as a showcase of my web development skills [<a href=\"web-templates/\" target=\"_blank\">Link</a>]",
+			"tags":["web"]
+		},
+		{
+			"name":"hugeMath Library",
+			"des":"For the math operations beyond the limit of its value range. [<a href=\"hugeMath/\">Link</a>]",
+			"tags":["web"]
+		},
+		{
+			"name":"Personal Portfolio",
+			"des":"A website to present MYSELF [<a href=\"https://rifat-hossain.github.io/\">Link</a>]",
+			"tags":["web"]
+		}
+	],
+	"exp":[
+		{
+			"name":"Silver Medalist of NOSI(Naional Olympiad in Software Innovation) (2015)",
+			"des":"The National Olympiad in Software Innovation (NOSI) is an annual software development competition for middle/high school students and college freshmen."
+		},
+		{
+			"name":"Web Developer at <abbr title=\"Bangladesh Institute of ICT in Development\">BIID</abbr> (May 2014 - May 2015)",
+			"des":"Goal: Developing a software for the company website database management."
+		},
+		{
+			"name":"ICT Secretory at <abbr title=\"Ideal Science and Technology Aiming Research Council\">ISTARC</abbr> (January 2015 - January 2016)",
+			"des":"Science Club of Ideal School and College."
+		}
+	],
+	"ss":[
+		{
+			"name":"Windows App Development",
+			"des":"There is so many users currently works on Windows OS on their PC. So knowing how to code apps for Windows is a crying need. I got my hands on Console, Forms, UWP, WPF and Windows hosting."
+		},
+		{
+			"name":"Android Development",
+			"des":"Android software development is the process by which applications are created for devices running the Android operating system. Have been working on android for a long time now."
+		},
+		{
+			"name":"Front-End Development",
+			"des":"Front end development is mostly focused on what some may coin the \"client side\" of development."
+		},
+		{
+			"name":"Foreign Languages",
+			"des":"English, Urdu and Hindi"
+		}
+	],
+	"edu":[
+		{
+			"title":"Graduation (BSc)",
+			"des":"Institution: Shahjalal Univarsity of Science and Technology<br/>Dept.: Electrical and Electronic Engineering",
+			"year":2013
+		},
+		{
+			"title":"Higher School Certificate",
+			"des":"Institution: Dhaka Imperial College",
+			"year":2016
+		},
+		{
+			"title":"Secondary School Certificate",
+			"des":"Institution: Ideal School and College",
+			"year":2013
+		}
+	],
+	"gra":[
+		{
+			"title":"Banner Design for an Online Event \"Master Presenter\"",
+			"date":"Decemberber 21, 2020",
+			"tag":"SUSC",
+			"img_loc":"master_presenter.jpg"
+		},
+		{
+			"title":"Poster Design for an Online Event",
+			"date":"Decemberber 25, 2020",
+			"tag":"SUSC",
+			"img_loc":"online_SH.jpg"
+		},
+		{
+			"title":"Poster Design for Supporting Anti Rape Movement",
+			"date":"October 6, 2020",
+			"tag":"SUSC",
+			"img_loc":"anti-rape.png"
+		},
+		{
+			"title":"Poster Design for an Online Event",
+			"date":"April ‎29, 2020",
+			"tag":"SUSC",
+			"img_loc":"review.png"
+		},
+		{
+			"title":"Poster Design for Bangla New Year",
+			"date":"April 14, 2020",
+			"tag":"SUSC",
+			"img_loc":"nababarsha_SUSC.jpg"
+		},
+		{
+			"title":"BDSA Reception Poster",
+			"date":"March ‎5, ‎2020",
+			"tag":"BDSA",
+			"img_loc":"poster-barishal.jpg"
+		},
+		{
+			"title":"BDSA Reception Banner",
+			"date":"March ‎5, ‎2020",
+			"tag":"BDSA",
+			"img_loc":"banner-barishal.jpg"
+		},
+		{
+			"title":"Group Logo",
+			"date":"December ‎8, ‎2019",
+			"tag":"SUSC",
+			"img_loc":"group_logo.jpg"
+		},
+		{
+			"title":"Logo Design",
+			"date":"May ‎13, ‎2019",
+			"tag":"PSC",
+			"img_loc":"psc_logo.jpg"
+		},
+		{
+			"title":"Logo Design",
+			"date":"April ‎19, 2020",
+			"tag":"Neel-Frame",
+			"img_loc":"neel-frame.png"
+		}
+	],
+	"idetool":[
+		{
+			"title":"Android Studio",
+			"des":"",
+			"tag":["android"]
+		},
+		{
+			"title":"Visual Studio",
+			"des":"",
+			"tag":["software"]
+		},
+		{
+			"title":"Android Room",
+			"des":"",
+			"tag":["android"]
+		},
+		{
+			"title":"Sqlite",
+			"des":"",
+			"tag":["android","software"]
+		},
+		{
+			"title":"Volley",
+			"des":"",
+			"tag":["android"]
+		}
+	]
+}

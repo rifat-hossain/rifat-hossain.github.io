@@ -1,0 +1,47 @@
+.screen {
+    min-height: 100vh;
+    background: -webkit-linear-gradient(rgba(12, 12, 12, 0.7), rgba(12, 12, 12, 1)), url(back.jpg) repeat center center fixed;
+}
+
+body {
+    background: #121212;
+    color: thistle;
+    font-family: monospace;
+}
+
+#header {
+    display: flex;
+    align-items: baseline;
+    margin: 15px;
+    font-family: 'Comfortaa', cursive;
+    font-size: xx-large;
+    color: lime;
+}
+
+h3{
+    color: white;
+}
+
+/* blinking cursor */
+
+#cursor {
+    background: lime;
+    line-height: 17px;
+    margin-left: 3px;
+    animation: blink 0.8s infinite;
+    -webkit-animation: blink 0.8s infinite;
+    width: 10px;
+    height: 26px;
+}
+
+@-webkit-keyframes blink {
+    0% {
+        background: #12121200
+    }
+    50% {
+        background: lime
+    }
+    100% {
+        background: #12121200
+    }
+}

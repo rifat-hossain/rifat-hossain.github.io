@@ -1,6 +1,5 @@
 var xhttp = new XMLHttpRequest();
-xhttp.open("GET", "https://rifat-hossain.github.io/db/db.xml", true);
-xhttp.overrideMimeType('application/xml');
+xhttp.open("GET", "https://rifat-hossain.github.io/db/db.json", true);
 xhttp.send(null);
 
 var pr_count = 1;
@@ -18,9 +17,11 @@ var ns;
 var num = 5;
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-        var xml = xhttp.responseXML;
+        //var xml = xhttp.responseXML;
+        var json = xhttp.responseXML;
         if (document.getElementById("projs") != null) {
-            projss = xml.getElementsByTagName("proj");
+            //projss = xml.getElementsByTagName("proj");
+            projss = JSON.parse(json);
             less_proj();
         }
         if (document.getElementById("exps") != null) {
@@ -99,7 +100,7 @@ function pageCount(length, num) {
 
 function less_proj() {
 
-    np = pageCount(projss.length, num);
+    np = pageCount(Object.keys(projss).length, num);
     document.getElementById("proj_count").innerHTML = "<li class=\"page-item\"><a class=\"page-link text-primary\" onclick=\"prev_pr();\">Previous</a></li>";
     for (var i = 1; i <= np; i++) {
         if (i == pr_count) {
@@ -110,13 +111,13 @@ function less_proj() {
     }
     document.getElementById("proj_count").innerHTML += "<li class=\"page-item\"><a class=\"page-link text-primary\" onclick=\"nxt_pr();\">Next</a></li>\
 		<li class=\"page-item\"><a class=\"page-link text-primary\" onclick=\"gotoList('proj');\">View All</a></li>";
-    if (projss.length <= num) {
+    if (Object.keys(projss).length <= num) {
         document.getElementById("proj_count").setAttribute("class", "invisible pagination justify-content-center");
     }
 
     document.getElementById("projs").innerHTML = "";
-    for (var i = (pr_count - 1) * num; i < projss.length && i < pr_count * num; i++) {
-        document.getElementById("projs").innerHTML += "<li><strong>" + projss.item(i).childNodes.item(1).innerHTML + "</strong>&nbsp;- " + projss.item(i).childNodes.item(3).innerHTML + "</li>";
+    for (var i = (pr_count - 1) * num; i < Object.keys(projss).length && i < pr_count * num; i++) {
+        document.getElementById("projs").innerHTML += "<li><strong>" + projss[i].name + "</strong>&nbsp;- " + projss[i].des + "</li>";
     }
 }
 
