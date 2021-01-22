@@ -18,7 +18,7 @@ var num = 5;
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         //var xml = xhttp.responseXML;
-        var json = xhttp.responseXML;
+        var json = xhttp.response;
         if (document.getElementById("projs") != null) {
             //projss = xml.getElementsByTagName("proj");
             projss = JSON.parse(json);
