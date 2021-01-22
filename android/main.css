@@ -45,3 +45,11 @@ h3{
         background: #12121200
     }
 }
+a{
+    color: darkturquoise;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+a:hover{
+    color:gray;
+}

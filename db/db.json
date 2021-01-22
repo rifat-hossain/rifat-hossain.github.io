@@ -155,27 +155,27 @@
 	"idetool":[
 		{
 			"title":"Android Studio",
-			"des":"",
+			"des":"Android Studio is the official integrated development environment for Google's Android operating system, built on JetBrains' IntelliJ IDEA software and designed specifically for Android development.",
 			"tag":["android"]
 		},
 		{
 			"title":"Visual Studio",
-			"des":"",
+			"des":"Microsoft Visual Studio is an integrated development environment from Microsoft. It is used to develop computer programs, as well as websites, web apps, web services and mobile apps.",
 			"tag":["software"]
 		},
 		{
 			"title":"Android Room",
-			"des":"",
+			"des":"Room is a persistence library to work with local file based database, part of the Android Jetpack.",
 			"tag":["android"]
 		},
 		{
 			"title":"Sqlite",
-			"des":"",
+			"des":"SQLite is a relational database management system. SQLite is not a client–server database engine. Rather, it is embedded into the end program.",
 			"tag":["android","software"]
 		},
 		{
 			"title":"Volley",
-			"des":"",
+			"des":"Volley is an HTTP library that makes networking for Android apps easier and most importantly, faster.",
 			"tag":["android"]
 		}
 	]
