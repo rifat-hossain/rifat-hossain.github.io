@@ -21,7 +21,7 @@ xhttp.onreadystatechange = function() {
         var json = xhttp.response;
         if (document.getElementById("projs") != null) {
             //projss = xml.getElementsByTagName("proj");
-            projss = JSON.parse(json);
+            projss = JSON.parse(json).proj;
             less_proj();
         }
         if (document.getElementById("exps") != null) {
