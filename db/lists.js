@@ -133,7 +133,7 @@ function less_exp() {
 
     document.getElementById("exps").innerHTML = "";
     for (var i = (ex_count - 1) * num; i < Object.keys(expss).length && i < ex_count * num; i++) {
-        document.getElementById("exps").innerHTML += "<li><strong>" + expss[i].title + "</strong>&nbsp;- " + expss[i].des + "</li>";
+        document.getElementById("exps").innerHTML += "<li><strong>" + expss[i].name + "</strong>&nbsp;- " + expss[i].des + "</li>";
     }
 }
 
@@ -156,7 +156,7 @@ function less_ss() {
 
     document.getElementById("sss").innerHTML = "";
     for (var i = (ex_count - 1) * num; i < Object.keys(ssss).length && i < ex_count * num; i++) {
-        document.getElementById("sss").innerHTML += "<li><strong>" + ssss[i].title + "</strong>&nbsp;- " + ssss[i].des + "</li>";
+        document.getElementById("sss").innerHTML += "<li><strong>" + ssss[i].name + "</strong>&nbsp;- " + ssss[i].des + "</li>";
     }
 }
 
