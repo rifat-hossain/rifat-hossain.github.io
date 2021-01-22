@@ -17,27 +17,22 @@ var ns;
 var num = 5;
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-        //var xml = xhttp.responseXML;
         var json = xhttp.response;
         if (document.getElementById("projs") != null) {
-            //projss = xml.getElementsByTagName("proj");
             projss = JSON.parse(json).proj;
             less_proj();
         }
         if (document.getElementById("exps") != null) {
-            expss = xml.getElementsByTagName("exp");
+            expss = JSON.parse(json).exp;
             less_exp();
         }
         if (document.getElementById("sss") != null) {
-            ssss = xml.getElementsByTagName("ss");
-            /*for(var i = 0; i < ssss.length; i++){
-            	document.getElementById("sss").innerHTML += "<li><strong>" + ssss.item(i).childNodes.item(1).innerHTML + "</strong>&nbsp;- " + ssss.item(i).childNodes.item(3).innerHTML + "</li>";
-            }*/
+            ssss = JSON.parse(json).ss;
             less_ss();
         }
         if (document.getElementById("full") != null) {
             var url = new URL(window.location.href);
-            var listss = xml.getElementsByTagName(url.searchParams.get('q'));
+            var listss = JSON.parse(json)[url.searchParams.get('q')];
             switch (url.searchParams.get('q')) {
                 case 'proj':
                     document.getElementById("name").innerHTML = "Projects";
@@ -49,32 +44,30 @@ xhttp.onreadystatechange = function() {
                     document.getElementById("name").innerHTML = "Special Skills";
                     break;
             }
-            for (var i = 0; i < listss.length; i++) {
-                document.getElementById("full").innerHTML += "<li><strong>" + listss.item(i).childNodes.item(1).innerHTML + "</strong>&nbsp;- " + listss.item(i).childNodes.item(3).innerHTML + "</li>";
+            for (var i = 0; i < Object.keys(listss).length; i++) {
+                document.getElementById("full").innerHTML += "<li><strong>" + listss[i].name + "</strong>&nbsp;- " + listss[i].des + "</li>";
             }
         }
 
         if (document.getElementById("edu") != null) {
-            var edus = xml.getElementsByTagName("edu");
-            for (var i = 0; i < edus.length; i++) {
+            var edus = JSON.parse(json).edu;
+            for (var i = 0; i < Object.keys(edus).length; i++) {
                 document.getElementById("edu").innerHTML += "<div class=\"timeline\">\
                 <div class=\"timeline-content\">\
-                    <span class=\"year\">" + edus.item(i).childNodes.item(5).innerHTML + "</span>\
+                    <span class=\"year\">" + edus[i].year + "</span>\
                     <div class=\"inner-content\">\
-                        <h3 class=\"title\">" + edus.item(i).childNodes.item(1).innerHTML + "</h3>\
-                        <p class=\"description\">" + edus.item(i).childNodes.item(3).innerHTML + "</p></div></div>";
+                        <h3 class=\"title\">" + edus[i].title + "</h3>\
+                        <p class=\"description\">" + edus[i].des + "</p></div></div>";
             }
         }
 
         if (document.getElementById("grap") != null) {
-            var grapp = xml.getElementsByTagName("gra");
-            console.log(grapp);
+            var grapp = JSON.parse(json).gra;
             for (var i = 0; i < grapp.length; i++) {
                 document.getElementById("grap").innerHTML += "<li>\
-                <span>" + grapp.item(i).childNodes.item(1).innerHTML + "</span>\
-                <small class=\"float-right\">" + grapp.item(i).childNodes.item(3).innerHTML + "</small>\
-                <p>" + grapp.item(i).childNodes.item(5).innerHTML + "</p>\
-                <img src=\"" + grapp.item(i).childNodes.item(7).innerHTML + "\">\
+                <span>" + grapp[i].title + "</span>\
+                <small class=\"float-right\">" + grapp[i].date + "</small>\
+                <img src=\"" + grapp[i].img_loc + "\">\
             </li>";
             }
         }
@@ -123,7 +116,7 @@ function less_proj() {
 
 function less_exp() {
 
-    nx = pageCount(expss.length, num);
+    nx = pageCount(Object.keys(expss).length, num);
     document.getElementById("exp_count").innerHTML = "<li class=\"page-item\"><a class=\"page-link text-primary\" onclick=\"prev_ex();\">Previous</a></li>";
     for (var i = 1; i <= nx; i++) {
         if (i == ex_count) {
@@ -134,19 +127,19 @@ function less_exp() {
     }
     document.getElementById("exp_count").innerHTML += "<li class=\"page-item\"><a class=\"page-link text-primary\" onclick=\"nxt_ex();\">Next</a></li>\
 		<li class=\"page-item\"><a class=\"page-link text-primary\" onclick=\"gotoList('exp');\">View All</a></li>";
-    if (expss.length <= num) {
+    if (Object.keys(expss).length <= num) {
         document.getElementById("exp_count").setAttribute("class", "invisible pagination justify-content-center");
     }
 
     document.getElementById("exps").innerHTML = "";
-    for (var i = (ex_count - 1) * num; i < expss.length && i < ex_count * num; i++) {
-        document.getElementById("exps").innerHTML += "<li><strong>" + expss.item(i).childNodes.item(1).innerHTML + "</strong>&nbsp;- " + expss.item(i).childNodes.item(3).innerHTML + "</li>";
+    for (var i = (ex_count - 1) * num; i < Object.keys(expss).length && i < ex_count * num; i++) {
+        document.getElementById("exps").innerHTML += "<li><strong>" + expss[i].title + "</strong>&nbsp;- " + expss[i].des + "</li>";
     }
 }
 
 function less_ss() {
 
-    ns = pageCount(ssss.length, num);
+    ns = pageCount(Object.keys(ssss).length, num);
     document.getElementById("ss_count").innerHTML = "<li class=\"page-item\"><a class=\"page-link text-primary\" onclick=\"prev_ss();\">Previous</a></li>";
     for (var i = 1; i <= ns; i++) {
         if (i == ex_count) {
@@ -157,13 +150,13 @@ function less_ss() {
     }
     document.getElementById("ss_count").innerHTML += "<li class=\"page-item\"><a class=\"page-link text-primary\" onclick=\"nxt_ss();\">Next</a></li>\
 		<li class=\"page-item\"><a class=\"page-link text-primary\" onclick=\"gotoList('ss');\">View All</a></li>";
-    if (ssss.length <= num) {
+    if (Object.keys(ssss).length <= num) {
         document.getElementById("ss_count").setAttribute("class", "invisible pagination justify-content-center");
     }
 
     document.getElementById("sss").innerHTML = "";
-    for (var i = (ex_count - 1) * num; i < ssss.length && i < ex_count * num; i++) {
-        document.getElementById("sss").innerHTML += "<li><strong>" + ssss.item(i).childNodes.item(1).innerHTML + "</strong>&nbsp;- " + ssss.item(i).childNodes.item(3).innerHTML + "</li>";
+    for (var i = (ex_count - 1) * num; i < Object.keys(ssss).length && i < ex_count * num; i++) {
+        document.getElementById("sss").innerHTML += "<li><strong>" + ssss[i].title + "</strong>&nbsp;- " + ssss[i].des + "</li>";
     }
 }
 
