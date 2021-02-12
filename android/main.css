@@ -53,3 +53,14 @@ a{
 a:hover{
     color:gray;
 }
+
+.screen button{
+    background-color: gray;
+    color: white;
+    padding: 10px;
+}
+.screen button:hover{
+    background-color: whitesmoke;
+    color: gray;
+    cursor: pointer;
+}
