@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container py-5">
+        <form>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Company Name*</span>
+                </div>
+                <input id="com" type="text" class="form-control" placeholder="Text" >
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Position*</span>
+                </div>
+                <input id="pos" type="text" class="form-control" placeholder="Text" >
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Office Location</span>
+                </div>
+                <input id="loca" type="text" class="form-control" placeholder="Text">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Min Salary</span>
+                </div>
+                <input id="sal" type="number" class="form-control" placeholder="Num">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Vacancy</span>
+                </div>
+                <input id="vac" type="number" class="form-control" placeholder="Num">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Length</span>
+                </div>
+                <input id="len" type="text" class="form-control" placeholder="Text">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Email*</span>
+                </div>
+                <input id="ema" type="email" class="form-control" placeholder="Email" >
+            </div>
+            <div class="form-group">
+                <label for="comment">Description:</label>
+                <textarea id="des" class="form-control" rows="5"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="comment">Job Type:</label>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="jobt" checked>Undefined
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="jobt">Work at Office
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="jobt">Remote
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="comment">Work Type:</label>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="workt" checked>Undefined
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="workt">Part Time ( &lt; 30hrs/week)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="workt">Full Time ( &gt;= 30hrs/week)
+                    </label>
+                </div>
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Website</span>
+                </div>
+                <input id="web" type="text" class="form-control" placeholder="Text">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">LinkedIn</span>
+                </div>
+                <input id="link" type="text" class="form-control" placeholder="Text">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Facebook</span>
+                </div>
+                <input id="fb" type="text" class="form-control" placeholder="Text">
+            </div>
+            <button type="button" class="btn btn-success" onclick="create()">Create Post</button>
+        </form>
+        <textarea class="mt-5 form-control" rows="5" id="post" readonly>Created Post will apear here</textarea>
+        <button type="button" class="btn btn-warning" onclick="cpy()">Copy</button>
+    </div>
+    <script>
+        function create(){
+            var pst = document.getElementById("post");
+            if(document.getElementById("com").value == ""){
+                alert("Company Name must be defined");
+            }
+            else if(document.getElementById("pos").value == ""){
+                alert("Position must be defined");
+            }
+            else if(document.getElementById("ema").value == ""){
+                alert("Email must be defined");
+            }
+            else{
+                pst.value = "at " + document.getElementById("com").value + "\n\n";
+                pst.value += "_Position: " + document.getElementById("pos").value + "\n\n";
+                if(document.getElementById("loca").value != "")
+                {
+                    pst.value += "_Position: " + document.getElementById("loca").value + "\n\n";
+                }
+                if(parseInt(document.getElementById("sal").value) > 0){
+                    pst.value = "Paid Inernship Opportunity " + pst.value + "_Salary:  Starting from " + document.getElementById("sal").value + "tk\n\n";
+                }
+                else if(parseInt(document.getElementById("sal").value) <= 0){
+                    pst.value = "Free Inernship Opportunity " + pst.value;
+                }
+                else{
+                    pst.value = "Inernship Opportunity " + pst.value;
+                }
+                if(document.getElementById("vac").value != "")
+                {
+                    pst.value += "_Vacancy: " + document.getElementById("vac").value + "\n\n";
+                }
+                if(document.getElementById("len").value != "")
+                {
+                    pst.value += "_Length: " + document.getElementById("len").value + "\n\n";
+                }
+                if(document.getElementById("ema").value != "")
+                {
+                    pst.value += "_Drop your CV at: " + document.getElementById("ema").value + "\n\n";
+                }
+                if(document.getElementById("des").value != "")
+                {
+                    pst.value += "_Description: " + document.getElementById("des").value + "\n\n";
+                }
+                pst.value += "_Job Type: " + document.querySelector('input[type="radio"][name="jobt"]:checked').labels[0].innerText + "\n\n";
+                pst.value += "_Work Type: " + document.querySelector('input[name="workt"]:checked').labels[0].innerText + "\n\n";
+                if(document.getElementById("web").value != "")
+                {
+                    pst.value += "_Website: " + document.getElementById("web").value + "\n\n";
+                }
+                if(document.getElementById("link").value != "")
+                {
+                    pst.value += "_LinkedIn: " + document.getElementById("link").value + "\n\n";
+                }
+                if(document.getElementById("fb").value != "")
+                {
+                    pst.value += "_Facebook: " + document.getElementById("fb").value + "\n\n";
+                }
+                pst.select();
+                pst.setSelectionRange(0,99999);
+                document.execCommand("copy");
+                alert("copied");
+            }
+            
+        }
+        function cpy(){
+            var pst = document.getElementById("post");
+            pst.select();
+                pst.setSelectionRange(0,99999);
+                document.execCommand("copy");
+                alert("copied");
+        }
+    </script>
+</body>
+</html>
