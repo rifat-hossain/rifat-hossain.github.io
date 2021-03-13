@@ -170,8 +170,12 @@
                 {
                     pst.value += "_Description: " + document.getElementById("des").value + "\n\n";
                 }
-                pst.value += "_Job Type: " + document.querySelector('input[type="radio"][name="jobt"]:checked').labels[0].innerText + "\n\n";
-                pst.value += "_Work Type: " + document.querySelector('input[name="workt"]:checked').labels[0].innerText + "\n\n";
+                if(!document.getElementsByName("jobt")[0].checked){
+                    pst.value += "_Job Type: " + document.querySelector('input[type="radio"][name="jobt"]:checked').labels[0].innerText + "\n\n";
+                }
+                if(!document.getElementsByName("workt")[0].checked){
+                    pst.value += "_Work Type: " + document.querySelector('input[name="workt"]:checked').labels[0].innerText + "\n\n";
+                }
                 if(document.getElementById("web").value != "")
                 {
                     pst.value += "_Website: " + document.getElementById("web").value + "\n\n";
@@ -184,6 +188,7 @@
                 {
                     pst.value += "_Facebook: " + document.getElementById("fb").value + "\n\n";
                 }
+                pst.value += "_VER1.0";
                 pst.select();
                 pst.setSelectionRange(0,99999);
                 document.execCommand("copy");
