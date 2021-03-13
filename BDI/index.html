@@ -59,6 +59,12 @@
             </div>
             <div class="input-group mb-3">
                 <div class="input-group-prepend">
+                    <span class="input-group-text">Deadline</span>
+                </div>
+                <input class="form-control" type="date" id="deadline">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
                   <span class="input-group-text">Email*</span>
                 </div>
                 <input id="ema" type="email" class="form-control" placeholder="Email" >
@@ -161,6 +167,10 @@
                 if(document.getElementById("len").value != "")
                 {
                     pst.value += "_Length: " + document.getElementById("len").value + "\n\n";
+                }
+                if(document.getElementById("deadline").value != "")
+                {
+                    pst.value += "_Deadline: " + document.getElementById("deadline").value + " 23:59:59\n\n";
                 }
                 if(document.getElementById("ema").value != "")
                 {
