@@ -1,0 +1,5 @@
+#Goal
+This facebook app will be used as content provider from a selective facebook group to students mobile app.
+
+#Target users
+The only targeted user of this app is the students of Electrical and Electronic Engineering of Shahjalal University of Science and Technology, Sylhet, Bangladesh.
