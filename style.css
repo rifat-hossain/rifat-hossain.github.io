@@ -1,6 +1,24 @@
 body {
     font-family: monospace;
 }
+
+a {
+    transition: color .2s; /* Animation */
+    color: aqua;
+}
+
+a:hover {
+    color: darkcyan ;
+}
+
 .wm-page-content img {
     margin: 0px auto 30px auto;
+}
+
+.zoom{
+    transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
