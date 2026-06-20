@@ -1,0 +1,21 @@
+{
+    "Bangladeshi":[
+        {
+            "Title": "Maasranga TV",
+            "vid_URI": "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8",
+            "logo_URI": "https://i.postimg.cc/4NVxpW6t/Maasranga.jpg"
+        },
+        {
+            "Title": "Jamuna TV",
+            "vid_URI": "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8",
+            "logo_URI": "https://i.postimg.cc/63K8YKmD/Jamuna-TV.jpg"
+        }
+    ],
+    "Indian":[
+        {
+            "Title": "Maasranga TV",
+            "vid_URI": "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8",
+            "logo_URI": "https://i.postimg.cc/4NVxpW6t/Maasranga.jpg"
+        }
+    ]
+}
