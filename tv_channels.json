@@ -37,30 +37,130 @@
         },
         {
             "Title": "Channel 24",
-            "vid_URI": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8",
+            "vid_URI": "https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8",
             "logo_URI": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Logo_of_Channel_24_%28Bangladesh%29.svg/250px-Logo_of_Channel_24_%28Bangladesh%29.svg.png"
         },
         {
             "Title": "Peace TV Bangla",
-            "vid_URI": "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8",
+            "vid_URI": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8",
             "logo_URI": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwb-EEubMnjJkaD7md8Scpe2DC1RgoOMw2eV7SeG8tOooKEkbtTbdFhXmy&s=10"
         },
         {
             "Title": "Deshi TV",
             "vid_URI": "https://deshitv.deshitv24.net/live/myStream/playlist.m3u8",
             "logo_URI": "https://i.postimg.cc/t4cxjxRj/Deshi-TV.jpg"
+        },
+        {
+            "Title": "Ekattor TV",
+            "vid_URI": "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8",
+            "logo_URI": "https://i.postimg.cc/JzDLh7pB/Ekattor.jpg"
+        },
+        {
+            "Title": "Independent TV",
+            "vid_URI": "https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8",
+            "logo_URI": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Independent_Television_Logo.svg/250px-Independent_Television_Logo.svg.png"
+        },
+        {
+            "Title": "NTV",
+            "vid_URI": "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8",
+            "logo_URI": "https://i.ibb.co.com/MymvXsgj/NTV.jpg"
+        },
+        {
+            "Title": "Channel 1",
+            "vid_URI": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8",
+            "logo_URI": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/%E0%A6%9A%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B2_%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B0_%E0%A6%B2%E0%A7%8B%E0%A6%97%E0%A7%8B.svg/250px-%E0%A6%9A%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B2_%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B0_%E0%A6%B2%E0%A7%8B%E0%A6%97%E0%A7%8B.svg.png"
+        },
+        {
+
         }
     ],
-    "Indian":[
+    "NEWS":[
+        {
+            "Title": "CNA News",
+            "vid_URI": "https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8",
+            "logo_URI": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/CNA_new_logo.svg/250px-CNA_new_logo.svg.png"
+        },
+        {
+            "Title": "Global News",
+            "vid_URI": "https://live.corusdigitaldev.com/groupb/live/3062d0e3-ed4c-4f47-8482-95648250f4b8/live.isml/.m3u8",
+            "logo_URI": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Global_News_%282022%29.svg/250px-Global_News_%282022%29.svg.png"
+        },
         {
             "Title": "NDTV Hindi",
             "vid_URI": "https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8",
             "logo_URI": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNlPxoQbJK3frgNkFWPpsLq0oXnc3yfmhVB5Egll4-tWNthpQ5jFQbcsc&s=10"
         },
         {
+            "Title": "Aaj Tak HD",
+            "vid_URI": "https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8",
+            "logo_URI": "https://upload.wikimedia.org/wikipedia/en/thumb/7/77/Aaj_Tak_logo.svg/250px-Aaj_Tak_logo.svg.png"
+        }
+    ],
+    "Indian Bangla":[
+        {
             "Title": "Enter10 Bangla",
             "vid_URI": "https://live-bangla.akamaized.net/liveabr/playlist.m3u8",
             "logo_URI": "https://yt3.googleusercontent.com/ytc/AIdro_kUVgsElgaFpQZNYILWQ0HLa-MAmbEjWNRBRqKms5qML2Q=s900-c-k-c0x00ffffff-no-rj"
+        },
+        {
+            "Title": "DD Bangla",
+            "vid_URI": "https%253A%252F%252Fd3qs3d2rkhfqrt.cloudfront.net%252Fout%252Fv1%252F7ff57cc9046b4c188b51a0d506f36e7f%252Findex_3.m3u8",
+            "logo_URI": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkhXal2hIMCw5WoB09VV4pobahnbUVBoblj6DEiRaA75rwhcKaRAq8HVIk&s=10"
+        }
+    ],
+    "Pakistan":[
+        {
+            "Title": "Peace TV Urdu",
+            "vid_URI": "https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/index.m3u8",
+            "logo_URI": "https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Peace_TV_official_logo.png/250px-Peace_TV_official_logo.png"
+        },
+        {
+            "Title": "GEO Entertainment",
+            "vid_URI": "https://jk3lz82elw79-hls-live.5centscdn.com/harPalGeo/955ad3298db330b5ee880c2c9e6f23a0.sdp/playlist.m3u8",
+            "logo_URI": "https://upload.wikimedia.org/wikipedia/en/d/d4/Geo_Entertainment.png"
+        }
+    ],
+    "Music":[
+        {
+            "Title": "Balle Balle",
+            "vid_URI": "https://mcncdndigital.com/balleballetv/index.m3u8",
+            "logo_URI": "https://i.postimg.cc/MGP3pRsh/Balle-Balle.jpg"
+        }
+    ],
+    "Kids":[
+        {
+            "Title": "Tom & Jerry 24*7",
+            "vid_URI": "https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8",
+            "logo_URI": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4t4fCjANSMhU6BEXJXCCU9okhkGUWm9B-Pg&s"
+        },
+        {
+            "Title": "SRK TV",
+            "vid_URI": "https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8",
+            "logo_URI": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZiQgEMhnm85YEA3moaE9J_mHnNIGV2oa1iVi85UJOqMZc869QjLjzdfs&s=10"
+        },
+        {
+            "Title": "Rongeen TV",
+            "vid_URI": "https://server.thelegitpro.in/rongeentv/rongeentv/tracks-v1a1/mono.m3u8",
+            "logo_URI": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYfMvfyMumyUY2_D5Hw4GUUL4Vaax_3F65G_2SMtyj8tfnhiFBwmLBW7-p&s=10"
+        },
+        {
+            "Title": "Jungle Book",
+            "vid_URI": "https://cc-4bhi5osabejc9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4bhi5osabejc9/junglebook.m3u8",
+            "logo_URI": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGdKH7Le-kqTMpSS_l4bVwDi9Lcckokq2oZJxvtZTlYyLu0adlxCBFUrc&s=10"
+        }
+    ],
+    "Infotainment":[
+        {
+            "Title": "Wild Earth",
+            "vid_URI": "https://wildearth-plex.amagi.tv/master.m3u8",
+            "logo_URI": "https://i.postimg.cc/HxDhtfTy/Wild-Earth.jpg"
+        }
+    ],
+    "Sports":[
+        {
+            "Title": "Tigo Sports",
+            "vid_URI": "http://162.19.255.233:8080/play/UNbAl57p9hXZClOu56FCTf_5weWAERKDgrt9JpvlAiI/m3u8",
+            "logo_URI": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Tigo_Sports_2025.png/250px-Tigo_Sports_2025.png"
         }
     ]
 }
